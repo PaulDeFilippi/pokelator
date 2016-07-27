@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F31935E1D492737002B4A96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F31935D1D492737002B4A96 /* AppDelegate.swift */; };
+		4F3193601D492737002B4A96 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F31935F1D492737002B4A96 /* ViewController.swift */; };
+		4F3193631D492737002B4A96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F3193611D492737002B4A96 /* Main.storyboard */; };
+		4F3193661D492737002B4A96 /* Pokelator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4F3193641D492737002B4A96 /* Pokelator.xcdatamodeld */; };
+		4F3193681D492737002B4A96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F3193671D492737002B4A96 /* Assets.xcassets */; };
+		4F31936B1D492737002B4A96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F3193691D492737002B4A96 /* LaunchScreen.storyboard */; };
+		4F3193761D492737002B4A96 /* PokelatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3193751D492737002B4A96 /* PokelatorTests.swift */; };
+		4F3193811D492737002B4A96 /* PokelatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3193801D492737002B4A96 /* PokelatorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4F3193721D492737002B4A96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F3193521D492737002B4A96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F3193591D492737002B4A96;
+			remoteInfo = Pokelator;
+		};
+		4F31937D1D492737002B4A96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F3193521D492737002B4A96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F3193591D492737002B4A96;
+			remoteInfo = Pokelator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4F31935A1D492737002B4A96 /* Pokelator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pokelator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F31935D1D492737002B4A96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4F31935F1D492737002B4A96 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4F3193621D492737002B4A96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4F3193651D492737002B4A96 /* Pokelator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pokelator.xcdatamodel; sourceTree = "<group>"; };
+		4F3193671D492737002B4A96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F31936A1D492737002B4A96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4F31936C1D492737002B4A96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F3193711D492737002B4A96 /* PokelatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PokelatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F3193751D492737002B4A96 /* PokelatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokelatorTests.swift; sourceTree = "<group>"; };
+		4F3193771D492737002B4A96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F31937C1D492737002B4A96 /* PokelatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PokelatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F3193801D492737002B4A96 /* PokelatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokelatorUITests.swift; sourceTree = "<group>"; };
+		4F3193821D492737002B4A96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F3193571D492737002B4A96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F31936E1D492737002B4A96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F3193791D492737002B4A96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F3193511D492737002B4A96 = {
+			isa = PBXGroup;
+			children = (
+				4F31935C1D492737002B4A96 /* Pokelator */,
+				4F3193741D492737002B4A96 /* PokelatorTests */,
+				4F31937F1D492737002B4A96 /* PokelatorUITests */,
+				4F31935B1D492737002B4A96 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F31935B1D492737002B4A96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F31935A1D492737002B4A96 /* Pokelator.app */,
+				4F3193711D492737002B4A96 /* PokelatorTests.xctest */,
+				4F31937C1D492737002B4A96 /* PokelatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F31935C1D492737002B4A96 /* Pokelator */ = {
+			isa = PBXGroup;
+			children = (
+				4F31935D1D492737002B4A96 /* AppDelegate.swift */,
+				4F31935F1D492737002B4A96 /* ViewController.swift */,
+				4F3193611D492737002B4A96 /* Main.storyboard */,
+				4F3193671D492737002B4A96 /* Assets.xcassets */,
+				4F3193691D492737002B4A96 /* LaunchScreen.storyboard */,
+				4F31936C1D492737002B4A96 /* Info.plist */,
+				4F3193641D492737002B4A96 /* Pokelator.xcdatamodeld */,
+			);
+			path = Pokelator;
+			sourceTree = "<group>";
+		};
+		4F3193741D492737002B4A96 /* PokelatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				4F3193751D492737002B4A96 /* PokelatorTests.swift */,
+				4F3193771D492737002B4A96 /* Info.plist */,
+			);
+			path = PokelatorTests;
+			sourceTree = "<group>";
+		};
+		4F31937F1D492737002B4A96 /* PokelatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4F3193801D492737002B4A96 /* PokelatorUITests.swift */,
+				4F3193821D492737002B4A96 /* Info.plist */,
+			);
+			path = PokelatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F3193591D492737002B4A96 /* Pokelator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F3193851D492737002B4A96 /* Build configuration list for PBXNativeTarget "Pokelator" */;
+			buildPhases = (
+				4F3193561D492737002B4A96 /* Sources */,
+				4F3193571D492737002B4A96 /* Frameworks */,
+				4F3193581D492737002B4A96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pokelator;
+			productName = Pokelator;
+			productReference = 4F31935A1D492737002B4A96 /* Pokelator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4F3193701D492737002B4A96 /* PokelatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F3193881D492737002B4A96 /* Build configuration list for PBXNativeTarget "PokelatorTests" */;
+			buildPhases = (
+				4F31936D1D492737002B4A96 /* Sources */,
+				4F31936E1D492737002B4A96 /* Frameworks */,
+				4F31936F1D492737002B4A96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F3193731D492737002B4A96 /* PBXTargetDependency */,
+			);
+			name = PokelatorTests;
+			productName = PokelatorTests;
+			productReference = 4F3193711D492737002B4A96 /* PokelatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4F31937B1D492737002B4A96 /* PokelatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F31938B1D492737002B4A96 /* Build configuration list for PBXNativeTarget "PokelatorUITests" */;
+			buildPhases = (
+				4F3193781D492737002B4A96 /* Sources */,
+				4F3193791D492737002B4A96 /* Frameworks */,
+				4F31937A1D492737002B4A96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F31937E1D492737002B4A96 /* PBXTargetDependency */,
+			);
+			name = PokelatorUITests;
+			productName = PokelatorUITests;
+			productReference = 4F31937C1D492737002B4A96 /* PokelatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F3193521D492737002B4A96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Paul Defilippi";
+				TargetAttributes = {
+					4F3193591D492737002B4A96 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					4F3193701D492737002B4A96 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 4F3193591D492737002B4A96;
+					};
+					4F31937B1D492737002B4A96 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 4F3193591D492737002B4A96;
+					};
+				};
+			};
+			buildConfigurationList = 4F3193551D492737002B4A96 /* Build configuration list for PBXProject "Pokelator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F3193511D492737002B4A96;
+			productRefGroup = 4F31935B1D492737002B4A96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F3193591D492737002B4A96 /* Pokelator */,
+				4F3193701D492737002B4A96 /* PokelatorTests */,
+				4F31937B1D492737002B4A96 /* PokelatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F3193581D492737002B4A96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F31936B1D492737002B4A96 /* LaunchScreen.storyboard in Resources */,
+				4F3193681D492737002B4A96 /* Assets.xcassets in Resources */,
+				4F3193631D492737002B4A96 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F31936F1D492737002B4A96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F31937A1D492737002B4A96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F3193561D492737002B4A96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F3193601D492737002B4A96 /* ViewController.swift in Sources */,
+				4F3193661D492737002B4A96 /* Pokelator.xcdatamodeld in Sources */,
+				4F31935E1D492737002B4A96 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F31936D1D492737002B4A96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F3193761D492737002B4A96 /* PokelatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F3193781D492737002B4A96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F3193811D492737002B4A96 /* PokelatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4F3193731D492737002B4A96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F3193591D492737002B4A96 /* Pokelator */;
+			targetProxy = 4F3193721D492737002B4A96 /* PBXContainerItemProxy */;
+		};
+		4F31937E1D492737002B4A96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F3193591D492737002B4A96 /* Pokelator */;
+			targetProxy = 4F31937D1D492737002B4A96 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4F3193611D492737002B4A96 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F3193621D492737002B4A96 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4F3193691D492737002B4A96 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F31936A1D492737002B4A96 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F3193831D492737002B4A96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F3193841D492737002B4A96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F3193861D492737002B4A96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Pokelator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Paul-DeFilippi.Pokelator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4F3193871D492737002B4A96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Pokelator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Paul-DeFilippi.Pokelator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4F3193891D492737002B4A96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PokelatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Paul-DeFilippi.PokelatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pokelator.app/Pokelator";
+			};
+			name = Debug;
+		};
+		4F31938A1D492737002B4A96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PokelatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Paul-DeFilippi.PokelatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pokelator.app/Pokelator";
+			};
+			name = Release;
+		};
+		4F31938C1D492737002B4A96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PokelatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Paul-DeFilippi.PokelatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Pokelator;
+			};
+			name = Debug;
+		};
+		4F31938D1D492737002B4A96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PokelatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Paul-DeFilippi.PokelatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Pokelator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F3193551D492737002B4A96 /* Build configuration list for PBXProject "Pokelator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F3193831D492737002B4A96 /* Debug */,
+				4F3193841D492737002B4A96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F3193851D492737002B4A96 /* Build configuration list for PBXNativeTarget "Pokelator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F3193861D492737002B4A96 /* Debug */,
+				4F3193871D492737002B4A96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4F3193881D492737002B4A96 /* Build configuration list for PBXNativeTarget "PokelatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F3193891D492737002B4A96 /* Debug */,
+				4F31938A1D492737002B4A96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4F31938B1D492737002B4A96 /* Build configuration list for PBXNativeTarget "PokelatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F31938C1D492737002B4A96 /* Debug */,
+				4F31938D1D492737002B4A96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4F3193641D492737002B4A96 /* Pokelator.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4F3193651D492737002B4A96 /* Pokelator.xcdatamodel */,
+			);
+			currentVersion = 4F3193651D492737002B4A96 /* Pokelator.xcdatamodel */;
+			path = Pokelator.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4F3193521D492737002B4A96 /* Project object */;
+}
