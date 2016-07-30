@@ -15,6 +15,12 @@
 		4F31936B1D492737002B4A96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F3193691D492737002B4A96 /* LaunchScreen.storyboard */; };
 		4F3193761D492737002B4A96 /* PokelatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3193751D492737002B4A96 /* PokelatorTests.swift */; };
 		4F3193811D492737002B4A96 /* PokelatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3193801D492737002B4A96 /* PokelatorUITests.swift */; };
+		4F31938F1D4A5D91002B4A96 /* Pokemon Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4F31938E1D4A5D91002B4A96 /* Pokemon Solid.ttf */; };
+		4F3193901D4A5D91002B4A96 /* Pokemon Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4F31938E1D4A5D91002B4A96 /* Pokemon Solid.ttf */; };
+		4F3193911D4A5D91002B4A96 /* Pokemon Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4F31938E1D4A5D91002B4A96 /* Pokemon Solid.ttf */; };
+		4F3193931D4A75BA002B4A96 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4F3193921D4A75BA002B4A96 /* btn.wav */; };
+		4F3193941D4A75BA002B4A96 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4F3193921D4A75BA002B4A96 /* btn.wav */; };
+		4F3193951D4A75BA002B4A96 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4F3193921D4A75BA002B4A96 /* btn.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,8 @@
 		4F31937C1D492737002B4A96 /* PokelatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PokelatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F3193801D492737002B4A96 /* PokelatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokelatorUITests.swift; sourceTree = "<group>"; };
 		4F3193821D492737002B4A96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F31938E1D4A5D91002B4A96 /* Pokemon Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pokemon Solid.ttf"; sourceTree = "<group>"; };
+		4F3193921D4A75BA002B4A96 /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,8 @@
 		4F31935C1D492737002B4A96 /* Pokelator */ = {
 			isa = PBXGroup;
 			children = (
+				4F31938E1D4A5D91002B4A96 /* Pokemon Solid.ttf */,
+				4F3193921D4A75BA002B4A96 /* btn.wav */,
 				4F31935D1D492737002B4A96 /* AppDelegate.swift */,
 				4F31935F1D492737002B4A96 /* ViewController.swift */,
 				4F3193611D492737002B4A96 /* Main.storyboard */,
@@ -196,6 +206,7 @@
 				TargetAttributes = {
 					4F3193591D492737002B4A96 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 963UXK3MCT;
 					};
 					4F3193701D492737002B4A96 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -232,7 +243,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F3193931D4A75BA002B4A96 /* btn.wav in Resources */,
 				4F31936B1D492737002B4A96 /* LaunchScreen.storyboard in Resources */,
+				4F31938F1D4A5D91002B4A96 /* Pokemon Solid.ttf in Resources */,
 				4F3193681D492737002B4A96 /* Assets.xcassets in Resources */,
 				4F3193631D492737002B4A96 /* Main.storyboard in Resources */,
 			);
@@ -242,6 +255,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F3193901D4A5D91002B4A96 /* Pokemon Solid.ttf in Resources */,
+				4F3193941D4A75BA002B4A96 /* btn.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +264,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F3193911D4A5D91002B4A96 /* Pokemon Solid.ttf in Resources */,
+				4F3193951D4A75BA002B4A96 /* btn.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,10 +422,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Pokelator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Paul-DeFilippi.Pokelator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -416,10 +436,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Pokelator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Paul-DeFilippi.Pokelator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -488,6 +511,7 @@
 				4F3193871D492737002B4A96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4F3193881D492737002B4A96 /* Build configuration list for PBXNativeTarget "PokelatorTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +520,7 @@
 				4F31938A1D492737002B4A96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4F31938B1D492737002B4A96 /* Build configuration list for PBXNativeTarget "PokelatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +529,7 @@
 				4F31938D1D492737002B4A96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
