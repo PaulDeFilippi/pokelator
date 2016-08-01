@@ -41,13 +41,12 @@ class ViewController: UIViewController {
         } catch let err as NSError {
             print(err.debugDescription)
         }
+    
     }
     
     @IBAction func buttonPressed(btn: UIButton!) {
-        //if outputLbl.text! == "0" && "\(btn.tag)" == "0" {
-        //btnSound.play()
-        //} else {
-        btnSound.play()
+        playSound()
+        
         runningNumber += "\(btn.tag)"
         outputLbl.text = runningNumber
     }
@@ -74,15 +73,24 @@ class ViewController: UIViewController {
     
     @IBAction func whenClearPressed(sender: AnyObject) {
         
+        outputLbl.text = "0"
         runningNumber = ""
         leftValStr = ""
         rightValStr = ""
         currentOperation = Operation.Empty
+        playSound()
+    }
     
+    func checkForOperatorFirst() {
+        if leftValStr == "" {
+            leftValStr = "0"
+        }
     }
     
     func processOperation(op: Operation) {
         playSound()
+        checkForOperatorFirst()
+        
         
         if currentOperation != Operation.Empty {
             // run some math
@@ -103,9 +111,10 @@ class ViewController: UIViewController {
                 
                 leftValStr = result
                 outputLbl.text = result
-                
-                currentOperation = op
             }
+                
+            currentOperation = op
+            
         } else {
             // this is the first time an operator button is pressed
             leftValStr = runningNumber
