@@ -206,7 +206,7 @@
 				TargetAttributes = {
 					4F3193591D492737002B4A96 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = 963UXK3MCT;
+						DevelopmentTeam = V7Q65FMKJ4;
 					};
 					4F3193701D492737002B4A96 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -422,13 +422,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Paul Defilippi (8W55YYCJU9)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Paul Defilippi (8W55YYCJU9)";
 				INFOPLIST_FILE = Pokelator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Paul-DeFilippi.Pokelator";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.paul-def.pokelator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "aaad5ca3-54ff-497e-81c4-64e43fa0ad18";
 			};
 			name = Debug;
 		};
@@ -436,13 +436,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Paul Defilippi (8W55YYCJU9)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Paul Defilippi (8W55YYCJU9)";
 				INFOPLIST_FILE = Pokelator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Paul-DeFilippi.Pokelator";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.paul-def.pokelator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "aaad5ca3-54ff-497e-81c4-64e43fa0ad18";
 			};
 			name = Release;
 		};
